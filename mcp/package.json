@@ -1,0 +1,22 @@
+{
+  "name": "mcp-brand-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "mcp-brand-service.js",
+  "scripts": {
+    "start": "node ./mcp-brand-service.js",
+    "start:http": "node ./mcp-http-server.js",
+    "dev:claude": "node ./mcp-brand-service.js",
+    "dev:http": "node ./mcp-http-server.js",
+    "test:call": "node ./test-call.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "axios": "^1.11.0",
+    "express": "^4.21.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5"
+  }
+}
+
